@@ -4,10 +4,10 @@ def clear(): return os.system('cls')
 
 clear()
 
-input_name = input("please inter your name: ")
+input_name = input("please enter your first, last name to remind your password: ")
 
 
-word = {'Mohamed': 'moha2abbi2021'}
+word = {'Mohamed Abbi': 'moha2abbi2021'}
 password = list(word.keys())
 
 input_convert = list([input_name])
